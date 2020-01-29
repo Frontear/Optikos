@@ -8,10 +8,10 @@
 namespace optikos {
     class Application {
     private:
-        GLFWwindow* window;
+        GLFWwindow *window;
 
     public:
-        Application(const std::string& title, int width, int height);
+        Application(const char *title, int width, int height);
         ~Application();
 
         int exec();
